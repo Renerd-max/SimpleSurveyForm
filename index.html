@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Holaje User Experience Survey</title>
+  </head>
+
+  <body>
+    <div id="heading">
+    <h1 id="title">Holaje User Experience Survey</h1>
+    <p id="description"><em>Thanks for taking the time to help us serve you better.
+    </em></p>
+    </div>
+
+    <form id="survey-form" action="submit.form">
+      <div id="basic">
+      <label id="name-label"> Full Name <input id="name" type="text" placeholder="Renerd Liam" required/></label>
+      <label id="email-label"> Email Address <input id="email" type="email" placeholder="renerdliam@gmail.com" required/></label>
+      <label id="number-label"> Your Age <input id="number" type="number" min="13" max="99" placeholder="69" required/></label>
+      </div>
+
+      <select id="dropdown">
+        <option value="">What best describes you?</option>
+        <option value="is-student">A Student</option>
+        <option value="is-parent">A Parent</option>
+        <option value="is-non">Non</option>
+      </select>
+
+      <p>How likely are you to recommend Holaje?</p>
+      <label><input type="radio" name="recommend" value="highly-recommendable"> Highly Recommendable</label>
+      <label><input type="radio" name="recommend" value="recommendable"> Recommendable</label>
+      <label><input type="radio" name="recommend" value="not-sure"> Not Sure</label>
+      <label><input type="radio" name="recommend" value="won't-recommend"> Won't Recommend</label>
+
+      <p>In what area(s) can we improve?</p>
+
+<div id="inline">
+      <input type="checkbox" id="hospitality" value="hospitality" name="suggestion"> <label for="hospitality">Hospitality</label>
+      <br>
+      <input type="checkbox" id="Quality" value="Quality" name="suggestion"> <label for="hospitality">Quality</label>
+      </br>
+      <input type="checkbox" id="Delivery" value="Delivery" name="suggestion"> <label for="hospitality">Delivery</label>
+      </br>
+      <input type="checkbox" id="Cost" value="Cost" name="suggestion"> <label for="hospitality">Cost</label>
+      </div>
+
+      <p>Kindly suggest any other way we can improve</p>
+      <textarea name="comment" rows="3" cols="30"></textarea>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <footer>
+      <p>A Project by Philip Oyedoyin. In continuation of the freeCodeCamp's Responsive Web Design Certification Course</p>
+    </footer>
+  </body>
+</html>

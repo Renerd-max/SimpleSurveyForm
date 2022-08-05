@@ -1,0 +1,76 @@
+body{
+    background-color:#7799;
+  }
+
+  html{
+    box-sizing:border-box;
+  }
+  
+  #heading, footer{
+    font-family:"Comic Sans MS","Bahnschrift SemiBold";
+  }
+  
+  form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color:grey;
+    padding:5px;
+    border-radius:5px;
+    font-family:calibri, arial;
+    font-size:17px;
+  }
+  
+  h1, #description{
+    text-align:center;
+  }
+  
+  label:not(#inline label){
+    display:block;
+  }
+  
+  #basic input, textarea, select, button{
+    display:block;
+    width:100%;
+    border-radius:5px;
+    background-color:#e5e5cc;
+    border:0
+  }
+  
+  #basic input{
+    height:30px;
+    margin-top:15px;
+    margin-bottom:10px;
+  }
+  
+  select{
+    height:40px;
+    margin-top:40px;
+    margin-bottom:20px;
+    padding:10px
+  }
+  
+  textarea{
+    height:75px;
+    margin-bottom:20px;
+  }
+  
+  button{
+    background-color:green;
+    height:35px;
+  }
+
+  footer{
+    background-color:rgb(41, 40, 40);
+    position:absolute;
+    margin-top:20px;
+    bottom:-1;
+    left:0;
+    padding:15px;
+    color:whitesmoke;
+    text-align: center;
+    font-style:italic;
+    font-size:10px;
+  }
